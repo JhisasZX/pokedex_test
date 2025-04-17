@@ -1,5 +1,5 @@
 name: pokedex_test
-description: "A new Flutter project."
+description: "A Pokedex app for learning and viewing Pokémon information."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,7 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  http: ^0.13.6
+  # the followind adds url_launcher to the pokedex_test project
+  http: ^0.13.6 
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -86,3 +87,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_native_splash:
+  color: "#ffffff"  # color de fondo
+  image: assets/images/poketest-bg.png #imagen para splash de inicio  # tu imagen
+  android: true
+  ios: true
+  fullscreen: true
+assets:
+  - assets/images/poketest-bg.png
