@@ -19,3 +19,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// This is the main entry point of the application. It initializes the app and sets up the main widget tree.
