@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Pokedex App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Pokedex App'), // Set the title of the app bar
+          title: const Text('Pokédex'), // Set the title of the app bar
         ),
         body: const HomePage(), // Set the home page to HomePage widget
       ),
