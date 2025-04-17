@@ -51,7 +51,7 @@ class _PokemonDetailPageState extends State<PokemonDetailPage> {
             final data = snapshot.data!;
             final stats = data['stats'];
             final imageUrl =
-                'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${widget.index}.png';
+                'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${widget.index}.png';
 
             return Padding(
               padding: const EdgeInsets.all(16.0),
