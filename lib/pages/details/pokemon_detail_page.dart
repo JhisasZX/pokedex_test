@@ -53,7 +53,7 @@ class _PokemonDetailPageState extends State<PokemonDetailPage> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (snapshot.hasData) {
-            final data = snapshot.data!;
+            final data = snapshot.data!; //information of the pokemon
             final stats = data['stats'];
             final types = data['types'];
             final abilities = data['abilities'];
@@ -94,7 +94,7 @@ class _PokemonDetailPageState extends State<PokemonDetailPage> {
                   const SizedBox(height: 20),
 
                   // Tipos
-                  const Text("Tipos:",
+                  const Text("Tipo:",
                       style:
                           TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                   Wrap(
