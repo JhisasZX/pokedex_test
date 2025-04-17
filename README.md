@@ -1,16 +1,27 @@
-# pokedex_test
+# Pokédex Flutter
 
-A new Flutter project.
+A Pokédex app built using Flutter and the [PokeAPI](https://pokeapi.co/). This app displays a list of Pokémon, allows searching by name, and shows information about each Pokémon.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Pokémon list (name + image)
+- Search by name
+- Detailed view with stats, types, and sprite
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Build Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Dart SDK (bundled with Flutter)
+- Android Studio or VS Code (optional but recommended)
+- Android emulator or physical device
+
+### Steps
+
+1. Clone the repository:
+   git clone https://github.com/JhisasZX/pokedex_test
+   cd pokedex_test
+2. Install dependencies:
+   flutter pub get
+
