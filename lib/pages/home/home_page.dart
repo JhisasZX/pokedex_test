@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
   }
 
   String imageUrl(int index) {
-    return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png';
+    return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${index + 1}.png';
   }
 
   @override
