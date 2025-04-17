@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                       labelText: 'Buscar Pokémon',
                       prefixIcon: const Icon(Icons.search),
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12),
+                        borderRadius: BorderRadius.circular(15),
                       ),
                     ),
                     onChanged: _filterPokemons,
