@@ -35,16 +35,16 @@ Muestra una lista de Pokémon, permite buscarlos por nombre y ver información d
    git clone https://github.com/JhisasZX/pokedex_test
    cd pokedex_test
 2. Instalar dependencias
-   flutter pub get
+   (flutter pub get)
 3. Ejecutar app
-   flutter run
+   (flutter run)
 ## Este proyecto también está desplegado como Web App PWA usando Firebase Hosting.
 ## Si quieres usarlo en modo web localmente:
-   flutter build web
-   flutter serve
+   (flutter build web)
+   (flutter serve)
 ## Tecnologias usadas
-   Flutter
-   Dart
-   PokeAPI
-   Firebase "hosting"
+   Flutter-
+   Dart-
+   PokeAPI-
+   Firebase "hosting"-
 By @JhisasZX
