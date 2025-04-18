@@ -7,16 +7,17 @@ class IntroPage extends StatelessWidget {
 
   void _launchUrl(String url) async {
     final Uri uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } else {
-      throw 'No se pudo abrir $url';
+    try {
+      if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+        debugPrint('No se pudo abrir $url');
+      }
+    } catch (e) {
+      debugPrint('Error al intentar abrir $url: $e');
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    // Obtenemos ancho y alto de la pantalla
     final size = MediaQuery.of(context).size;
     final isSmallScreen = size.width < 600;
 

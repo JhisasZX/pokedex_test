@@ -51,7 +51,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Lista de Pokemones'),
+        title: const Text('Conoce a tus Pokémon'),
+        centerTitle: true,
+        backgroundColor: const Color(0xFFA29CBB),
         actions: [
           IconButton(
             icon: Icon(isGrid ? Icons.list : Icons.grid_view),
