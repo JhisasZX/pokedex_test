@@ -1,27 +1,50 @@
 # Pokédex Flutter
 
-A Pokédex app built using Flutter and the [PokeAPI](https://pokeapi.co/). This app displays a list of Pokémon, allows searching by name, and shows information about each Pokémon.
+Una app de Pokédex construida con Flutter usando la [PokeAPI](https://pokeapi.co/).  
+Muestra una lista de Pokémon, permite buscarlos por nombre y ver información detallada.
 
-## 📱 Features
+🔗 **Demo online (Web App en Firebase Hosting):**  
+👉 [https://poketest-3aa91.web.app](https://poketest-3aa91.web.app)
 
-- Pokémon list (name + image)
-- Search by name
-- Detailed view with stats, types, and sprite
+---
 
-## 🚀 Build Instructions
+## 📱 Características
 
-### Requirements
+- Lista de Pokémon con nombre e imagen
+- Barra de búsqueda por nombre
+- Vista detallada con:
+  - Tipos
+  - Estadísticas base
+  - Sprite oficial
 
-- Flutter SDK
-- Dart SDK (bundled with Flutter)
-- Android Studio or VS Code (optional but recommended)
-- Android emulator or physical device
+---
 
-### Steps
+## 🚀 Instrucciones de ejecución
 
-1. Clone the repository:
+### ✅ Requisitos
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Dart SDK (incluido con Flutter)
+- Android Studio o Visual Studio Code (opcional, pero recomendado)
+- Emulador Android o dispositivo físico
+
+### 📦 Pasos
+
+1. Clona el repositorio:
+   ```bash
    git clone https://github.com/JhisasZX/pokedex_test
    cd pokedex_test
-2. Install dependencies:
+2. Instalar dependencias
    flutter pub get
-
+3. Ejecutar app
+   flutter run
+## Este proyecto también está desplegado como Web App PWA usando Firebase Hosting.
+## Si quieres usarlo en modo web localmente:
+   flutter build web
+   flutter serve
+## Tecnologias usadas
+   Flutter
+   Dart
+   PokeAPI
+   Firebase "hosting"
+By @JhisasZX
